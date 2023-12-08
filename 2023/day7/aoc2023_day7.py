@@ -194,7 +194,7 @@ def day7_pt2():
 
 def main():
     day7_pt1()
-    #day7_pt2()
+    day7_pt2()
 
 if __name__ == "__main__":
     main()
