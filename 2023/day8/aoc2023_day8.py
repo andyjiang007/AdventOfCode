@@ -10,13 +10,6 @@ import itertools
 import math
 
 
-class Node:
-    def __init__(self, name, left, right):
-        self.name = name
-        self.left = left
-        self.right = right
-
-
 def day8_pt1():
 
     # Using readlines()
