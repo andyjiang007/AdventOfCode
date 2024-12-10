@@ -6,6 +6,7 @@ def day{DAY}_pt1():
     # Using readlines()
     inputFile = open("aoc{YEAR}_day{DAY}.txt", "r", encoding="UTF-8")
     lines = inputFile.readlines()
+    lines = [line.strip() for line in lines]
     inputFile.close()
 
     result = 0
@@ -19,6 +20,7 @@ def day{DAY}_pt2():
     # Using readlines()
     inputFile = open("aoc{YEAR}_day{DAY}.txt", "r", encoding="UTF-8")
     lines = inputFile.readlines()
+    lines = [line.strip() for line in lines]
     inputFile.close()
 
     result = 0
